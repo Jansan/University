@@ -14,6 +14,6 @@ namespace University.Data
         {
         }
 
-        public DbSet<University.Models.Entities.Student> Student { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }
